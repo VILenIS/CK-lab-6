@@ -1,5 +1,6 @@
 import unittest
 from Calculator import cal
+
 class Unit_tests(unittest.TestCase):
     def test_1(self):
         res = cal([1,'+',8])
@@ -24,3 +25,7 @@ class Unit_tests(unittest.TestCase):
         self.assertEqual(res, 1 + 8 - 40)
         res = cal([1, '+', 81, '-', 4])
         self.assertEqual(res, 1 + 81 - 4)
+
+    def test_5(self):
+        res = cal([10, '+', 4, '-', 4])
+        self.assertEqual(res, 10)
