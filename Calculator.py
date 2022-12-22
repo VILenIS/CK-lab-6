@@ -1,6 +1,6 @@
-print("!hello\nPlese write ")
+#print("!hello\nPlese write ")
 
-s = str(input()).split()
+
 
 def cal(s):
     if len(s)%2==0:
