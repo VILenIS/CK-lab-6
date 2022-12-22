@@ -40,7 +40,7 @@ jobs:
     - name: Convert to Exe
       run: |
         pip install pyinstaller
-        pyinstaller --onefile calculator.py
+        pyinstaller --onefile Calculator.py
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
