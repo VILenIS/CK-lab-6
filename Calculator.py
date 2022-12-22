@@ -1,6 +1,6 @@
 #print("!hello\nPlese write ")
 
-
+s=[4,'+',6]
 
 def cal(s):
     if len(s)%2==0:
